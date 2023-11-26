@@ -49,7 +49,7 @@ def find_by_lastname(phone_book,last_name):
         count+=1
         if i['Фамилия'].lower() == last_name:
             print(f'{count-1} {print_dict(i)}')
-            flag == True
+            flag = True
     if flag == False:
         print('такого абонента нет')
 
